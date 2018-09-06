@@ -3057,3 +3057,206 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 2018-09-06 14:26:16.341  INFO 11016 --- [https-jsse-nio-8443-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-09-06 14:26:16.343  INFO 11016 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2018-09-06 14:26:16.361  INFO 11016 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-09-06 14:42:46.231  INFO 11488 --- [main] c.c.c.CasOverlayClientApplication        : Starting CasOverlayClientApplication on DESKTOP-N5K2GI1 with PID 11488 (C:\Users\huayu\git\cas-overlay-client\target\classes started by huayu in C:\Users\huayu\git\cas-overlay-client)
+2018-09-06 14:42:46.235  INFO 11488 --- [main] c.c.c.CasOverlayClientApplication        : No active profile set, falling back to default profiles: default
+2018-09-06 14:42:46.286  INFO 11488 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74ea2410: startup date [Thu Sep 06 14:42:46 CST 2018]; root of context hierarchy
+2018-09-06 14:42:47.480  INFO 11488 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8443 (https)
+2018-09-06 14:42:47.492  INFO 11488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-06 14:42:47.492  INFO 11488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-09-06 14:42:47.593  INFO 11488 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-06 14:42:47.593  INFO 11488 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1311 ms
+2018-09-06 14:42:47.785  INFO 11488 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 14:42:47.785  INFO 11488 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 14:42:47.785  INFO 11488 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 14:42:47.785  INFO 11488 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 14:42:47.785  INFO 11488 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'singleSignOutFilter' to urls: [/*]
+2018-09-06 14:42:47.785  INFO 11488 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'cas30ProxyReceivingTicketValidationFilter' to urls: [/*]
+2018-09-06 14:42:47.785  INFO 11488 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'authenticationFilter' to urls: [/*]
+2018-09-06 14:42:47.785  INFO 11488 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpServletRequestWrapperFilter' to urls: [/*]
+2018-09-06 14:42:47.785  INFO 11488 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-06 14:42:47.812  INFO 11488 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:42:47.812  INFO 11488 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 14:42:47.816  INFO 11488 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [useSession] loaded from FilterConfig.getInitParameter with value [true]
+2018-09-06 14:42:47.816  INFO 11488 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:42:47.816  INFO 11488 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 14:42:47.816  INFO 11488 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:42:47.820  INFO 11488 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignorePattern] loaded from FilterConfig.getInitParameter with value [.*]
+2018-09-06 14:42:47.820  INFO 11488 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignoreUrlPatternType] loaded from FilterConfig.getInitParameter with value [com.chenxing.casoverlayclient.filter.SimpleUrlPatternMatcherStrategy]
+2018-09-06 14:42:48.113  INFO 11488 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@74ea2410: startup date [Thu Sep 06 14:42:46 CST 2018]; root of context hierarchy
+2018-09-06 14:42:48.179  INFO 11488 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.IndexController.index(javax.servlet.http.HttpServletRequest)
+2018-09-06 14:42:48.179  INFO 11488 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ssoLogin]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.SSOController.home()
+2018-09-06 14:42:48.183  INFO 11488 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 14:42:48.183  INFO 11488 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 14:42:48.202  INFO 11488 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-09-06 14:42:48.218  INFO 11488 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:42:48.218  INFO 11488 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:42:48.265  INFO 11488 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:42:48.503  INFO 11488 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 14:42:48.763  INFO 11488 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8443 (https)
+2018-09-06 14:42:48.771  INFO 11488 --- [main] c.c.c.CasOverlayClientApplication        : Started CasOverlayClientApplication in 2.829 seconds (JVM running for 3.341)
+2018-09-06 14:45:11.333  INFO 11488 --- [https-jsse-nio-8443-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 14:45:11.334  INFO 11488 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 14:45:11.358  INFO 11488 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-09-06 14:49:48.130  INFO 10864 --- [main] c.c.c.CasOverlayClientApplication        : Starting CasOverlayClientApplication on DESKTOP-N5K2GI1 with PID 10864 (C:\Users\huayu\git\cas-overlay-client\target\classes started by huayu in C:\Users\huayu\git\cas-overlay-client)
+2018-09-06 14:49:48.146  INFO 10864 --- [main] c.c.c.CasOverlayClientApplication        : No active profile set, falling back to default profiles: default
+2018-09-06 14:49:48.177  INFO 10864 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71a794e5: startup date [Thu Sep 06 14:49:48 CST 2018]; root of context hierarchy
+2018-09-06 14:49:49.192  INFO 10864 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8443 (https)
+2018-09-06 14:49:49.208  INFO 10864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-06 14:49:49.208  INFO 10864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-09-06 14:49:49.302  INFO 10864 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-06 14:49:49.302  INFO 10864 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1125 ms
+2018-09-06 14:49:49.427  INFO 10864 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 14:49:49.427  INFO 10864 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 14:49:49.427  INFO 10864 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 14:49:49.427  INFO 10864 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 14:49:49.427  INFO 10864 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'singleSignOutFilter' to urls: [/*]
+2018-09-06 14:49:49.427  INFO 10864 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'cas30ProxyReceivingTicketValidationFilter' to urls: [/*]
+2018-09-06 14:49:49.427  INFO 10864 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'authenticationFilter' to urls: [/*]
+2018-09-06 14:49:49.427  INFO 10864 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpServletRequestWrapperFilter' to urls: [/*]
+2018-09-06 14:49:49.427  INFO 10864 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-06 14:49:49.458  INFO 10864 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:49:49.458  INFO 10864 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 14:49:49.458  INFO 10864 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [useSession] loaded from FilterConfig.getInitParameter with value [true]
+2018-09-06 14:49:49.458  INFO 10864 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:49:49.458  INFO 10864 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 14:49:49.458  INFO 10864 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:49:49.458  INFO 10864 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignorePattern] loaded from FilterConfig.getInitParameter with value [.*]
+2018-09-06 14:49:49.458  INFO 10864 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignoreUrlPatternType] loaded from FilterConfig.getInitParameter with value [com.chenxing.casoverlayclient.filter.SimpleUrlPatternMatcherStrategy]
+2018-09-06 14:49:49.658  INFO 10864 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@71a794e5: startup date [Thu Sep 06 14:49:48 CST 2018]; root of context hierarchy
+2018-09-06 14:49:49.704  INFO 10864 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.IndexController.index(javax.servlet.http.HttpServletRequest)
+2018-09-06 14:49:49.708  INFO 10864 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ssoLogin]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.SSOController.home()
+2018-09-06 14:49:49.708  INFO 10864 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 14:49:49.708  INFO 10864 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 14:49:49.720  INFO 10864 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-09-06 14:49:49.728  INFO 10864 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:49:49.732  INFO 10864 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:49:49.759  INFO 10864 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:49:49.861  INFO 10864 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 14:49:50.087  INFO 10864 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8443 (https)
+2018-09-06 14:49:50.091  INFO 10864 --- [main] c.c.c.CasOverlayClientApplication        : Started CasOverlayClientApplication in 2.195 seconds (JVM running for 2.507)
+2018-09-06 14:49:54.507  INFO 10864 --- [https-jsse-nio-8443-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 14:49:54.508  INFO 10864 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 14:49:54.521  INFO 10864 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-09-06 14:56:15.253  INFO 5376 --- [main] c.c.c.CasOverlayClientApplication        : Starting CasOverlayClientApplication on DESKTOP-N5K2GI1 with PID 5376 (C:\Users\huayu\git\cas-overlay-client\target\classes started by huayu in C:\Users\huayu\git\cas-overlay-client)
+2018-09-06 14:56:15.269  INFO 5376 --- [main] c.c.c.CasOverlayClientApplication        : No active profile set, falling back to default profiles: default
+2018-09-06 14:56:15.300  INFO 5376 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Thu Sep 06 14:56:15 CST 2018]; root of context hierarchy
+2018-09-06 14:56:16.371  INFO 5376 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8443 (https)
+2018-09-06 14:56:16.383  INFO 5376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-06 14:56:16.383  INFO 5376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-09-06 14:56:16.601  INFO 5376 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-09-06 14:56:16.601  INFO 5376 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-06 14:56:16.605  INFO 5376 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1305 ms
+2018-09-06 14:56:16.742  INFO 5376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 14:56:16.742  INFO 5376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 14:56:16.742  INFO 5376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 14:56:16.742  INFO 5376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 14:56:16.742  INFO 5376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'singleSignOutFilter' to urls: [/*]
+2018-09-06 14:56:16.742  INFO 5376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'cas30ProxyReceivingTicketValidationFilter' to urls: [/*]
+2018-09-06 14:56:16.742  INFO 5376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'authenticationFilter' to urls: [/*]
+2018-09-06 14:56:16.746  INFO 5376 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpServletRequestWrapperFilter' to urls: [/*]
+2018-09-06 14:56:16.746  INFO 5376 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-06 14:56:16.765  INFO 5376 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:56:16.769  INFO 5376 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 14:56:16.769  INFO 5376 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [useSession] loaded from FilterConfig.getInitParameter with value [true]
+2018-09-06 14:56:16.769  INFO 5376 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:56:16.769  INFO 5376 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 14:56:16.769  INFO 5376 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:56:16.773  INFO 5376 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignorePattern] loaded from FilterConfig.getInitParameter with value [.*]
+2018-09-06 14:56:16.773  INFO 5376 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignoreUrlPatternType] loaded from FilterConfig.getInitParameter with value [com.chenxing.casoverlayclient.filter.SimpleUrlPatternMatcherStrategy]
+2018-09-06 14:56:16.964  INFO 5376 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Thu Sep 06 14:56:15 CST 2018]; root of context hierarchy
+2018-09-06 14:56:17.011  INFO 5376 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.IndexController.index(javax.servlet.http.HttpServletRequest)
+2018-09-06 14:56:17.011  INFO 5376 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ssoLogin]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.SSOController.home()
+2018-09-06 14:56:17.011  INFO 5376 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 14:56:17.015  INFO 5376 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 14:56:17.027  INFO 5376 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-09-06 14:56:17.034  INFO 5376 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:56:17.034  INFO 5376 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:56:17.070  INFO 5376 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:56:17.171  INFO 5376 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 14:56:17.495  INFO 5376 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8443 (https)
+2018-09-06 14:56:17.499  INFO 5376 --- [main] c.c.c.CasOverlayClientApplication        : Started CasOverlayClientApplication in 2.48 seconds (JVM running for 2.832)
+2018-09-06 14:56:24.751  INFO 5376 --- [https-jsse-nio-8443-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 14:56:24.752  INFO 5376 --- [https-jsse-nio-8443-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 14:56:24.766  INFO 5376 --- [https-jsse-nio-8443-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-09-06 14:57:28.467  INFO 7916 --- [main] c.c.c.CasOverlayClientApplication        : Starting CasOverlayClientApplication on DESKTOP-N5K2GI1 with PID 7916 (C:\Users\huayu\git\cas-overlay-client\target\classes started by huayu in C:\Users\huayu\git\cas-overlay-client)
+2018-09-06 14:57:28.471  INFO 7916 --- [main] c.c.c.CasOverlayClientApplication        : No active profile set, falling back to default profiles: default
+2018-09-06 14:57:28.510  INFO 7916 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Thu Sep 06 14:57:28 CST 2018]; root of context hierarchy
+2018-09-06 14:57:29.516  INFO 7916 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8443 (https)
+2018-09-06 14:57:29.527  INFO 7916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-06 14:57:29.527  INFO 7916 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-09-06 14:57:29.703  INFO 7916 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-09-06 14:57:29.707  INFO 7916 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-06 14:57:29.707  INFO 7916 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1201 ms
+2018-09-06 14:57:29.832  INFO 7916 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 14:57:29.832  INFO 7916 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 14:57:29.832  INFO 7916 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 14:57:29.832  INFO 7916 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 14:57:29.836  INFO 7916 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'singleSignOutFilter' to urls: [/*]
+2018-09-06 14:57:29.836  INFO 7916 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'cas30ProxyReceivingTicketValidationFilter' to urls: [/*]
+2018-09-06 14:57:29.836  INFO 7916 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'authenticationFilter' to urls: [/*]
+2018-09-06 14:57:29.836  INFO 7916 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpServletRequestWrapperFilter' to urls: [/*]
+2018-09-06 14:57:29.836  INFO 7916 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-06 14:57:29.855  INFO 7916 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:57:29.859  INFO 7916 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 14:57:29.859  INFO 7916 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [useSession] loaded from FilterConfig.getInitParameter with value [true]
+2018-09-06 14:57:29.859  INFO 7916 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:57:29.859  INFO 7916 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 14:57:29.859  INFO 7916 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 14:57:29.859  INFO 7916 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignorePattern] loaded from FilterConfig.getInitParameter with value [.*]
+2018-09-06 14:57:29.859  INFO 7916 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignoreUrlPatternType] loaded from FilterConfig.getInitParameter with value [com.chenxing.casoverlayclient.filter.SimpleUrlPatternMatcherStrategy]
+2018-09-06 14:57:30.054  INFO 7916 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Thu Sep 06 14:57:28 CST 2018]; root of context hierarchy
+2018-09-06 14:57:30.097  INFO 7916 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.IndexController.index(javax.servlet.http.HttpServletRequest)
+2018-09-06 14:57:30.101  INFO 7916 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ssoLogin]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.SSOController.home()
+2018-09-06 14:57:30.101  INFO 7916 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 14:57:30.101  INFO 7916 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 14:57:30.113  INFO 7916 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-09-06 14:57:30.125  INFO 7916 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:57:30.125  INFO 7916 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:57:30.152  INFO 7916 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 14:57:30.257  INFO 7916 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 14:57:30.503  INFO 7916 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8443 (https)
+2018-09-06 14:57:30.507  INFO 7916 --- [main] c.c.c.CasOverlayClientApplication        : Started CasOverlayClientApplication in 2.282 seconds (JVM running for 2.595)
+2018-09-06 14:57:35.501  INFO 7916 --- [https-jsse-nio-8443-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 14:57:35.501  INFO 7916 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 14:57:35.514  INFO 7916 --- [https-jsse-nio-8443-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2018-09-06 15:04:24.181  INFO 8912 --- [main] c.c.c.CasOverlayClientApplication        : Starting CasOverlayClientApplication on DESKTOP-N5K2GI1 with PID 8912 (C:\Users\huayu\git\cas-overlay-client\target\classes started by huayu in C:\Users\huayu\git\cas-overlay-client)
+2018-09-06 15:04:24.185  INFO 8912 --- [main] c.c.c.CasOverlayClientApplication        : No active profile set, falling back to default profiles: default
+2018-09-06 15:04:24.228  INFO 8912 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Thu Sep 06 15:04:24 CST 2018]; root of context hierarchy
+2018-09-06 15:04:25.275  INFO 8912 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8443 (https)
+2018-09-06 15:04:25.287  INFO 8912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-06 15:04:25.287  INFO 8912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-09-06 15:04:25.482  INFO 8912 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-09-06 15:04:25.482  INFO 8912 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-06 15:04:25.482  INFO 8912 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1254 ms
+2018-09-06 15:04:25.619  INFO 8912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-06 15:04:25.623  INFO 8912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-06 15:04:25.623  INFO 8912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-06 15:04:25.623  INFO 8912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-06 15:04:25.623  INFO 8912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'singleSignOutFilter' to urls: [/*]
+2018-09-06 15:04:25.623  INFO 8912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'cas30ProxyReceivingTicketValidationFilter' to urls: [/*]
+2018-09-06 15:04:25.623  INFO 8912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'authenticationFilter' to urls: [/*]
+2018-09-06 15:04:25.627  INFO 8912 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpServletRequestWrapperFilter' to urls: [/*]
+2018-09-06 15:04:25.627  INFO 8912 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-09-06 15:04:25.646  INFO 8912 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 15:04:25.650  INFO 8912 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 15:04:25.650  INFO 8912 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [useSession] loaded from FilterConfig.getInitParameter with value [true]
+2018-09-06 15:04:25.650  INFO 8912 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerUrlPrefix] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 15:04:25.650  INFO 8912 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [serverName] loaded from FilterConfig.getInitParameter with value [https://172.16.176.51:8443]
+2018-09-06 15:04:25.650  INFO 8912 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [casServerLoginUrl] loaded from FilterConfig.getInitParameter with value [https://test.mycasdomain.com/cas]
+2018-09-06 15:04:25.654  INFO 8912 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignorePattern] loaded from FilterConfig.getInitParameter with value [.*]
+2018-09-06 15:04:25.654  INFO 8912 --- [localhost-startStop-1] .j.c.c.c.WebXmlConfigurationStrategyImpl : Property [ignoreUrlPatternType] loaded from FilterConfig.getInitParameter with value [com.chenxing.casoverlayclient.filter.SimpleUrlPatternMatcherStrategy]
+2018-09-06 15:04:25.884  INFO 8912 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Thu Sep 06 15:04:24 CST 2018]; root of context hierarchy
+2018-09-06 15:04:25.931  INFO 8912 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.IndexController.index(javax.servlet.http.HttpServletRequest)
+2018-09-06 15:04:25.931  INFO 8912 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/ssoLogin]}" onto public java.lang.String com.chenxing.casoverlayclient.rest.SSOController.home()
+2018-09-06 15:04:25.935  INFO 8912 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-06 15:04:25.935  INFO 8912 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-06 15:04:25.947  INFO 8912 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-09-06 15:04:25.954  INFO 8912 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 15:04:25.954  INFO 8912 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 15:04:26.001  INFO 8912 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-06 15:04:26.107  INFO 8912 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-06 15:04:26.364  INFO 8912 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8443 (https)
+2018-09-06 15:04:26.370  INFO 8912 --- [main] c.c.c.CasOverlayClientApplication        : Started CasOverlayClientApplication in 2.454 seconds (JVM running for 2.768)
+2018-09-06 15:04:30.972  INFO 8912 --- [https-jsse-nio-8443-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-06 15:04:30.975  INFO 8912 --- [https-jsse-nio-8443-exec-4] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-06 15:04:30.989  INFO 8912 --- [https-jsse-nio-8443-exec-4] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
