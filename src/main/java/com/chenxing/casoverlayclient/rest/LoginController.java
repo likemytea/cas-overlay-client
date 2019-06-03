@@ -45,4 +45,11 @@ public class LoginController {
 		log.info("--8443注销成功-controller-loginOut-sucess");
 		return "注销成功";
 	}
+
+	@RequestMapping("/test/getMessage")
+	@ResponseBody
+	public String getMessage() {
+		log.info("--getmessage");
+		return "I'm cas-overlay-client1";
+	}
 }
